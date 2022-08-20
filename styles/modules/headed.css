@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  height: 8rem;
+  background-color: var(--secondary-theme-color);
+}
+
+.header-nav {
+  padding: 0 1.625rem;
+  height: 100%;
+  --scale-transform-menu: scale(1);
+  --scale-transform-close: scale(0);
+  --translate-x: translate(100%)
+}
+
+.header-nav:target {
+  --scale-transform-menu: scale(0);
+  --scale-transform-close: scale(1);
+  --translate-x: translate(0%)
+}
+
+.header-nav__container {
+  width: min(100%, 1024px);
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav__logo {
+  height: 7rem;
+  object-fit: contain;
+}

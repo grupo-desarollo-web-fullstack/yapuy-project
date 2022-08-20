@@ -1,0 +1,23 @@
+.icon {
+  color: var(--primary-reverse-text-color);
+  font-size: 2rem;
+  transition: .25s transform;
+}
+
+.icon--menu {
+  grid-column: -1 / -2;
+  grid-row: 1 / 2;
+  transform: var(--scale-transform-menu);
+}
+
+.icon--close {
+  grid-column: -1 / -2;
+  grid-row: 1 / 2;
+  transform: var(--scale-transform-close);
+}
+
+@media (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+}
