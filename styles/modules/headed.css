@@ -1,4 +1,4 @@
-.header {
+.header { 
   width: 100%;
   height: 8rem;
   background-color: var(--secondary-theme-color);
@@ -32,4 +32,83 @@
 .header-nav__logo {
   height: 7rem;
   object-fit: contain;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 0px;
+  /*background-image:  url("../img/planta\ footer.jpg");*/
+  background-size: cover;
+  background-color: #2B7A0B
+
+}
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin: 0;
+}
+
+.menu__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.menu__footer .logo img {
+  width: 80px;
+}
+
+.menu__footer .terms{
+  max-width: 350px;
+  margin-top: 2px;
+  font-weight: 500;
+  color: #faf0f0e8;
+  font-size: 18px;
+}
+
+.menu__footer h2 {
+  margin-bottom: 20px;
+  color:#EAE509;
+  font-weight: 700;
+}
+
+.menu__footer a {
+  margin-top: 10px;
+  color: #7DCE13;
+  font-weight: 700;
+}
+
+.menu__footer a:hover {
+  opacity: 0.5;
+}
+
+.menu__footer a .fab{
+  font-size: 20px;
+}
+
+.menu__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.menu__copyright p{
+  margin-top: 100px;
+  color: #f1d2d2;
+}
+
+.menu__copyright {
+  border: none;
+  height: 1px;
+  background-color: #faefef;
+}
+
+.copyright {
+  background-color: #5BB318;
+  color: text;
 }
