@@ -95,17 +95,15 @@
   margin: auto;
   text-align: center;
   padding: 0px 40px;
-}
-
-.menu__copyright p{
-  margin-top: 100px;
-  color: #f1d2d2;
-}
-
-.menu__copyright {
   border: none;
   height: 1px;
   background-color: #faefef;
+  font-size: 0.8rem;
+}
+
+.terms p{
+  margin-top: 100px;
+  color: #f1d2d2;
 }
 
 .copyright {
