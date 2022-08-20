@@ -4,6 +4,7 @@
   gap: 1rem;
   margin: 0;
   padding: 0;
+  z-index: 2;
 }
 
 .menu--dropdown {
@@ -26,6 +27,22 @@
   text-decoration: none;
   font-weight: 800;
   color: var(--primary-text-color);
+  position: relative;
+}
+
+.menu__item::before {
+  content: '';
+  width: 0;
+  background-color: var(--quaternary-theme-color);
+  height: 0.1250rem;
+  position: absolute;
+  bottom: -0.0625rem;
+  /* top: -0.0625rem; */
+  transition: width .25s;
+}
+
+.menu__item:hover::before {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
