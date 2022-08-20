@@ -2,6 +2,7 @@
   width: 100%;
   height: 8rem;
   background-color: var(--secondary-theme-color);
+  border-bottom: 2px solid var(--primary-shadow-color);
 }
 
 .header-nav {
