@@ -20,275 +20,330 @@
     <link rel="stylesheet" href="./styles/imports.css" />
   </head>
 
-<body class="body">
-  <header class="header">
-    <nav id="nav" class="header-nav">
-      <div class="header-nav__container">
-        <a class="header-nav__link" href="/">
-          <img src="./assets/img/Logo_yapuy.webp" alt="logo-yapuy" width="110" height="140" class="header-nav__logo" />
-        </a>
-        <a href="#nav" class="icon icon--menu"><i class="bi bi-list"></i></a>
-        <a href="#" class="icon icon--close"><i class="bi bi-x-circle-fill"></i></a>
-        <ul class="menu menu--dropdown">
-          <li>
-            <a class="menu__item" href="#categoria">Categorías</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#informe">Informes</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#oferta">Ofertas</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#blog">Blog</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#contacto">Contáctanos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="slider">
-      <ul class="slider__list">
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!" target="_blank"
-            rel="noopener noreferrer">
-            <img src="./assets/img/agri1.jpg" alt="Agricultores 1" width="590px" height="295px"
-              class="slider__item-img" />
+  <body class="body">
+    <header class="header">
+      <nav id="nav" class="header-nav">
+        <div class="header-nav__container">
+          <a class="header-nav__link" href="/">
+            <img
+              src="./assets/img/Logo_yapuy.webp"
+              alt="logo-yapuy"
+              width="110"
+              height="140"
+              class="header-nav__logo"
+            />
           </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <picture>
-              <source
-                media="(min-width: 768px)"
-                srcset="./assets/img/a2.jpg"
-              />
+          <a href="#nav" class="icon icon--menu"><i class="bi bi-list"></i></a>
+          <a href="#" class="icon icon--close"
+            ><i class="bi bi-x-circle-fill"></i
+          ></a>
+          <ul class="menu menu--dropdown">
+            <li>
+              <a class="menu__item" href="#categoria">Categorías</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#informe">Informes</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#oferta">Ofertas</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#blog">Blog</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#contacto">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
-                src="./assets/img/a1.jpg"
-                alt="Agricultores 2"
+                src="./assets/img/agri1.jpg"
+                alt="Agricultores 1"
                 width="590px"
                 height="295px"
                 class="slider__item-img"
               />
-            </picture>
-          </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <img src="./assets/img//COAATDZBOREGXDG6WITTRXVASQ.jpg" alt="Agricultores 3" width="590px" height="295px"
-              class="slider__item-img" />
-          </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <img src="./assets/img//comida-organica-verduras-canasta_135427-2767.webp" alt="Agricultores 4"
-              width="590px" height="295px" class="slider__item-img" />
-          </a>
-        </li>
-      </ul>
-    </section>
-
-
-    <section id="categoria">
-
-    </section>
-
-    <section class="section section--offer" id="oferta">
-      <div class="container container--offer">
-        <h2 class="section__title">Ofertas</h2>
-        <div class="container container--cards">
-          <article class="card-product">
-            <div class="card-product__container">
-              <header class="card-product__header">
-                <img
-                  src="./assets/img/products/papa.png"
-                  class="card-product__img"
-                  alt="product-papa"
-                  width="210"
-                  height="150"
+            </a>
+          </li>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/img/a2.jpg"
                 />
-              </header>
-              <div class="card-product__body">
-                <h2 class="card-product__title">Papa</h2>
-                <div class="card-product__price">S/. 1.50 x kg</div>
-                <div class="card-product__amount">
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-dash-lg"></i>
-                  </button>
-                  <input
-                    class="card-product__amount-input"
-                    type="text"
-                    value="0"
-                    placeholder="Cantidad"
-                  />
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-plus-lg"></i>
-                  </button>
-                </div>
-                <a class="card-product__look-more" href="#"> Ver más </a>
-              </div>
-              <footer class="card-product__footer">
-                <button class="card-product__footer-button">
-                  <i class="bi bi-cart-plus-fill"></i>
-                  <div class="card-product__footer-button__text-container">
-                    <span class="card-product__footer-button__text"
-                      >Añadir al carrito</span
-                    >
-                  </div>
-                </button>
-              </footer>
-            </div>
-          </article>
-          <article class="card-product">
-            <div class="card-product__container">
-              <header class="card-product__header">
                 <img
-                  src="./assets/img/products/papa.png"
-                  class="card-product__img"
-                  alt="product-papa"
-                  width="210"
-                  height="150"
+                  src="./assets/img/a1.jpg"
+                  alt="Agricultores 2"
+                  width="590px"
+                  height="295px"
+                  class="slider__item-img"
                 />
-              </header>
-              <div class="card-product__body">
-                <h2 class="card-product__title">Papa</h2>
-                <div class="card-product__price">S/. 1.50 x kg</div>
-                <div class="card-product__amount">
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-dash-lg"></i>
-                  </button>
-                  <input
-                    class="card-product__amount-input"
-                    type="text"
-                    value="0"
-                    placeholder="Cantidad"
+              </picture>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <img
+                src="./assets/img//COAATDZBOREGXDG6WITTRXVASQ.jpg"
+                alt="Agricultores 3"
+                width="590px"
+                height="295px"
+                class="slider__item-img"
+              />
+            </a>
+          </li>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <img
+                src="./assets/img//comida-organica-verduras-canasta_135427-2767.webp"
+                alt="Agricultores 4"
+                width="590px"
+                height="295px"
+                class="slider__item-img"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="categoria"></section>
+
+      <section class="section section--offer" id="oferta">
+        <div class="container container--offer">
+          <h2 class="section__title">Ofertas</h2>
+          <div class="container container--cards">
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/papa.png"
+                    class="card-product__img"
+                    alt="product-papa"
+                    width="210"
+                    height="150"
                   />
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-plus-lg"></i>
-                  </button>
-                </div>
-                <a class="card-product__look-more" href="#"> Ver más </a>
-              </div>
-              <footer class="card-product__footer">
-                <button class="card-product__footer-button">
-                  <i class="bi bi-cart-plus-fill"></i>
-                  <div class="card-product__footer-button__text-container">
-                    <span class="card-product__footer-button__text"
-                      >Añadir al carrito</span
-                    >
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Papa</h2>
+                  <div class="card-product__price">S/. 1.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
                   </div>
-                </button>
-              </footer>
-            </div>
-          </article>
-          <article class="card-product">
-            <div class="card-product__container">
-              <header class="card-product__header">
-                <img
-                  src="./assets/img/products/papa.png"
-                  class="card-product__img"
-                  alt="product-papa"
-                  width="210"
-                  height="150"
-                />
-              </header>
-              <div class="card-product__body">
-                <h2 class="card-product__title">Papa</h2>
-                <div class="card-product__price">S/. 1.50 x kg</div>
-                <div class="card-product__amount">
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-dash-lg"></i>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
                   </button>
-                  <input
-                    class="card-product__amount-input"
-                    type="text"
-                    value="0"
-                    placeholder="Cantidad"
+                </footer>
+              </div>
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/papa.png"
+                    class="card-product__img"
+                    alt="product-papa"
+                    width="210"
+                    height="150"
                   />
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-plus-lg"></i>
-                  </button>
-                </div>
-                <a class="card-product__look-more" href="#"> Ver más </a>
-              </div>
-              <footer class="card-product__footer">
-                <button class="card-product__footer-button">
-                  <i class="bi bi-cart-plus-fill"></i>
-                  <div class="card-product__footer-button__text-container">
-                    <span class="card-product__footer-button__text"
-                      >Añadir al carrito</span
-                    >
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Papa</h2>
+                  <div class="card-product__price">S/. 1.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
                   </div>
-                </button>
-              </footer>
-            </div>
-          </article>
-          <article class="card-product">
-            <div class="card-product__container">
-              <header class="card-product__header">
-                <img
-                  src="./assets/img/products/papa.png"
-                  class="card-product__img"
-                  alt="product-papa"
-                  width="210"
-                  height="150"
-                />
-              </header>
-              <div class="card-product__body">
-                <h2 class="card-product__title">Papa</h2>
-                <div class="card-product__price">S/. 1.50 x kg</div>
-                <div class="card-product__amount">
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-dash-lg"></i>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
                   </button>
-                  <input
-                    class="card-product__amount-input"
-                    type="text"
-                    value="0"
-                    placeholder="Cantidad"
+                </footer>
+              </div>
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/papa.png"
+                    class="card-product__img"
+                    alt="product-papa"
+                    width="210"
+                    height="150"
                   />
-                  <button class="card-product__amount-button" type="button">
-                    <i class="bi bi-plus-lg"></i>
-                  </button>
-                </div>
-                <a class="card-product__look-more" href="#"> Ver más </a>
-              </div>
-              <footer class="card-product__footer">
-                <button class="card-product__footer-button">
-                  <i class="bi bi-cart-plus-fill"></i>
-                  <div class="card-product__footer-button__text-container">
-                    <span class="card-product__footer-button__text"
-                      >Añadir al carrito</span
-                    >
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Papa</h2>
+                  <div class="card-product__price">S/. 1.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
                   </div>
-                </button>
-              </footer>
-            </div>
-          </article>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+                  </button>
+                </footer>
+              </div>
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/papa.png"
+                    class="card-product__img"
+                    alt="product-papa"
+                    width="210"
+                    height="150"
+                  />
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Papa</h2>
+                  <div class="card-product__price">S/. 1.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+                  </button>
+                </footer>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="informe">
+      <section id="informe"></section>
 
-    </section>
-
-    <section id="contacto" class="section section--secondary">
-      <div class="container container--elements">
-        <h2 class="section__title section__title--property section__title--animation">Contactanos</h2>
-        <form  class="form" action="#">
-            <input type="text" class="form__input" id="nombre" name="nombre" placeholder="Nombre" maxlength="300" minlength="1" required />
-            <input type="email" class="form__input" id="correo" name="correo" placeholder="Correo" required/>
-            <input type="tel" class="form__input" id="telefono" name="telefono" placeholder="Telefóno" pattern="[0-9]{9}" required/>
-            <button class="button button--primary button--lg ">Enviar</button>
-        </form>
-      </div>
-    </section>
-
-    <footer class="footer"
+      <section id="contacto" class="section section--secondary">
+        <div class="container container--elements">
+          <h2
+            class="section__title section__title--property section__title--animation"
+          >
+            Contactanos
+          </h2>
+          <form class="form" action="#">
+            <input
+              type="text"
+              class="form__input"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              maxlength="300"
+              minlength="1"
+              required
+            />
+            <input
+              type="email"
+              class="form__input"
+              id="correo"
+              name="correo"
+              placeholder="Correo"
+              required
+            />
+            <input
+              type="tel"
+              class="form__input"
+              id="telefono"
+              name="telefono"
+              placeholder="Telefóno"
+              pattern="[0-9]{9}"
+              required
+            />
+            <button class="button button--primary button--lg">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
       <nav id="nav" class="footer__nav">
         <div class="container__footer">
           <ul class="menu__footer">
@@ -296,73 +351,108 @@
             <!-- <div class="logo">
             <img src="./assets/img/Logo_yapuy.webp" alt="logo yapuy" width="50" height="80" />
           </div> -->
-         
-          <li class="terms">
-            <p>
-              Viene impulsando el reconocimiento al trabajo del agricultor en diversas
-              comunidades andinas en el Perú con el pago justo por sus productos así 
-              mismo apoyar en el ahorro de la canasta familiar teniendo precios módicos
-              en los productos agrícolas. Esto permitirá que todos los peruanos tengan 
-              sus productos” DE LA CHACRA A LA OLLA”.
-            </p>
-          </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Categorias</h2>
-          <li  class="menu__footer-list">
-          <a  href="#tuberculos">Tubérculos</a>
-        </li>
-        <li class="menu__footer-list">
-          <a  href="#frutas">Frutas</a>
-        </li>
-          <li  class="menu__footer-list"> 
-          <a  href="#hierbas-aromaticas">Hierbas Aromáticas</a>
-        </li>
-          <li  class="menu__footer-list"> 
-          <a  href="#oferta">Ofertas</a>
-        </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Mi cuenta</h2>
-          <li  class="menu__footer-list">
-          <a  href="#sesion">Iniciar Sesión</a>
-        </li>
-          <li  class="menu__footer-list">
-          <a  href="#pedidos">Mis Pedidos</a>
-          </li>
-          <li class="menu__footer-list">
-          <a  href="#pedidos">Rastrear Pedidos</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a  href="#terminos">Términos y Condiciones</a>
-          </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Siguenos</h2>
-          <li class="menu__footer-list">
-          <a href="https://www.facebook.com/"><img src="./assets/svg/logo facebook.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Facebook</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://www.instagram.com/"><img src="./assets/svg/logo-instagram.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Instagram</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://twitter.com/?lang=es"><img src="./assets/svg/logo twitter.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Twiteer</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://www.linkedin.com/"><img src="./assets/svg/logo-linkedin.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-      <h2 class="menu__copyright">
-        Copyright &copy; 2022
-        <a href="https://github.com/orgs/grupo-desarollo-web-fullstack/" target="blank" rel="noopener noreferrer">
-          Yapuy
-        </a>
-        Todos los derechos reservados.
-      </h2>
-    </nav>
+
+            <li class="terms">
+              <p>
+                Viene impulsando el reconocimiento al trabajo del agricultor en
+                diversas comunidades andinas en el Perú con el pago justo por
+                sus productos así mismo apoyar en el ahorro de la canasta
+                familiar teniendo precios módicos en los productos agrícolas.
+                Esto permitirá que todos los peruanos tengan sus productos” DE
+                LA CHACRA A LA OLLA”.
+              </p>
+            </li>
+          </ul>
+          <ul class="menu__footer">
+            <h2>Categorias</h2>
+            <li class="menu__footer-list">
+              <a href="#tuberculos">Tubérculos</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#frutas">Frutas</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#hierbas-aromaticas">Hierbas Aromáticas</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#oferta">Ofertas</a>
+            </li>
+          </ul>
+          <ul class="menu__footer">
+            <h2>Mi cuenta</h2>
+            <li class="menu__footer-list">
+              <a href="#sesion">Iniciar Sesión</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#pedidos">Mis Pedidos</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#pedidos">Rastrear Pedidos</a>
+            </li>
+            <li class="menu__footer-list">
+              <a href="#terminos">Términos y Condiciones</a>
+            </li>
+          </ul>
+          <ul class="menu__footer">
+            <h2>Siguenos</h2>
+            <li class="menu__footer-list">
+              <a href="https://www.facebook.com/"
+                ><img
+                  src="./assets/svg/logo facebook.ico"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                  class="menu__footer-img"
+                />Facebook</a
+              >
+            </li>
+            <li class="menu__footer-list">
+              <a href="https://www.instagram.com/"
+                ><img
+                  src="./assets/svg/logo-instagram.ico"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                  class="menu__footer-img"
+                />Instagram</a
+              >
+            </li>
+            <li class="menu__footer-list">
+              <a href="https://twitter.com/?lang=es"
+                ><img
+                  src="./assets/svg/logo twitter.ico"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                  class="menu__footer-img"
+                />Twiteer</a
+              >
+            </li>
+            <li class="menu__footer-list">
+              <a href="https://www.linkedin.com/"
+                ><img
+                  src="./assets/svg/logo-linkedin.ico"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                  class="menu__footer-img"
+                />LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <h2 class="menu__copyright">
+          Copyright &copy; 2022
+          <a
+            href="https://github.com/orgs/grupo-desarollo-web-fullstack/"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            Yapuy
+          </a>
+          Todos los derechos reservados.
+        </h2>
+      </nav>
     </footer>
-
-</body>
-
+  </body>
 </html>
