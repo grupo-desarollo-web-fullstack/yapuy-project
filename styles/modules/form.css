@@ -11,13 +11,21 @@
 .form__input {
   background-color: transparent;
   border: 2px solid var(--secundary-shadow-color);
-  color: var(--primary-text-color);
+  color: var(--secundary-text-color);
   font-size: 1rem;
   padding: 0.5em;
 }
 
-.form__input:invalid {
-  color: var(--primary-invalid-color);
+.form__input:hover {
+  filter: brightness(112.5%);
+  border: 2px solid var(--terciary-shadow-color);
+  box-shadow: 0 0 0.12rem 0.12rem var(--terciary-shadow-color);
+}
+
+.form__input:focus{
+  background-color: transparent;
+  color: var(--terciary-text-color);
+  font-weight: 500;
 }
 
 .form__input::placeholder {
