@@ -48,3 +48,36 @@
         height: 28rem;
     }
 }
+
+.informes {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.informe__list {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    margin: 0;
+    will-change: transform;
+    
+}
+
+.informe__item {
+    width: 25%;
+    list-style: none;
+}
+
+
+.informe__item-img {
+    display: block;
+    object-fit: cover; 
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .informe__item-img {
+        width: 100%;
+        height: 28rem;
+    }
+}
