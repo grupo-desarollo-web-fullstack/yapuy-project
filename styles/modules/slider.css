@@ -51,6 +51,7 @@
 
 .informes {
     width: 100%;
+    left: auto;
     overflow: hidden;
     height: 100%;
 }
@@ -59,13 +60,13 @@
     display: flex;
     padding: 0;
     width: 300%;
-    margin: 0;
-        
+    margin: 0;     
 }
 
 .informe__item {
     width: 35%;
     list-style: none;
+    border-radius: 6px;
 }
 
 .informe__item-img {
