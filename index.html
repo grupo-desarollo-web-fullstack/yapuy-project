@@ -1,175 +1,258 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yapuy 👨‍🌾🏠</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/imports.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yapuy 👨‍🌾🏠</title>
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="./styles/index.css" />
-  <link rel="stylesheet" href="./styles/imports.css" />
-  
-</head>
-
-<body class="body">
-  <header class="header">
-    <nav id="nav" class="header-nav">
-      <div class="header-nav__container">
-        <a class="header-nav__link" href="/">
-          <img src="./assets/img/Logo_yapuy.webp" alt="logo-yapuy" width="110" height="140" class="header-nav__logo" />
-        </a>
-        <a href="#nav" class="icon icon--menu"><i class="bi bi-list"></i></a>
-        <a href="#" class="icon icon--close"><i class="bi bi-x-circle-fill"></i></a>
-        <ul class="menu menu--dropdown">
-          <li>
-            <a class="menu__item" href="#categoria">Categorías</a>
+  <body class="body">
+    <header class="header">
+      <nav id="nav" class="header-nav">
+        <div class="header-nav__container">
+          <a class="header-nav__link" href="/">
+            <img
+              src="./assets/img/Logo_yapuy.webp"
+              alt="logo-yapuy"
+              width="110"
+              height="140"
+              class="header-nav__logo"
+            />
+          </a>
+          <a href="#nav" class="icon icon--menu"><i class="bi bi-list"></i></a>
+          <a href="#" class="icon icon--close"
+            ><i class="bi bi-x-circle-fill"></i
+          ></a>
+          <ul class="menu menu--dropdown">
+            <li>
+              <a class="menu__item" href="#categoria">Categorías</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#informe">Informes</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#oferta">Ofertas</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#blog">Blog</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#contacto">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/img/agri1.jpg"
+                alt="Agricultores 1"
+                width="590px"
+                height="295px"
+                class="slider__item-img"
+              />
+            </a>
           </li>
-          <li>
-            <a class="menu__item" href="#informe">Informes</a>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/img/a2.jpg"
+                />
+                <img
+                  src="./assets/img/a1.jpg"
+                  alt="Agricultores 2"
+                  width="590px"
+                  height="295px"
+                  class="slider__item-img"
+                />
+              </picture>
+            </a>
           </li>
-          <li>
-            <a class="menu__item" href="#oferta">Ofertas</a>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <img
+                src="./assets/img//COAATDZBOREGXDG6WITTRXVASQ.jpg"
+                alt="Agricultores 3"
+                width="590px"
+                height="295px"
+                class="slider__item-img"
+              />
+            </a>
           </li>
-          <li>
-            <a class="menu__item" href="#blog">Blog</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#contacto">Contáctanos</a>
+          <li class="slider__item">
+            <a
+              href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!"
+            >
+              <img
+                src="./assets/img//comida-organica-verduras-canasta_135427-2767.webp"
+                alt="Agricultores 4"
+                width="590px"
+                height="295px"
+                class="slider__item-img"
+              />
+            </a>
           </li>
         </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="slider">
-      <ul class="slider__list">
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!" target="_blank"
-            rel="noopener noreferrer">
-            <img src="./assets/img/agri1.jpg" alt="Agricultores 1" width="590px" height="295px"
-              class="slider__item-img" />
-          </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <img src="./assets/img/a2 (1).jpg" alt="Agricultores 2" width="590px" height="295px"
-              class="slider__item-img" />
-          </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <img src="./assets/img//COAATDZBOREGXDG6WITTRXVASQ.jpg" alt="Agricultores 3" width="590px" height="295px"
-              class="slider__item-img" />
-          </a>
-        </li>
-        <li class="slider__item">
-          <a href="https://api.whatsapp.com/send?phone=921473096&text=Bienvenido%20a%20YAPUY!">
-            <img src="./assets/img//comida-organica-verduras-canasta_135427-2767.webp" alt="Agricultores 4"
-              width="590px" height="295px" class="slider__item-img" />
-          </a>
-        </li>
-      </ul>
-    </section>
+      </section>
 
+      <section class="section section--offer" id="oferta">
+        <div class="container container--offer">
+          <h2 class="section__title">Ofertas</h2>
+          <div class="container__cards">
+            <article class="card-product"></article>
+            <article class="card-product"></article>
+            <article class="card-product"></article>
+            <article class="card-product"></article>
+            <article class="card-product"></article>
+          </div>
+        </div>
+      </section>
 
-    <section id="categoria">
+      <section id="oferta"></section>
 
-    </section>
+      <section id="informe"></section>
 
-    <section id="oferta">
+      <section id="contacto"></section>
 
-    </section>
-
-    <section id="informe">
-
-    </section>
-
-    <section id="contacto">
-
-    </section>
-
-    <footer class="footer">
-      <nav id="nav" class="footer__nav">
-      <div class="container__footer">
-        <ul class="menu__footer">
-          <h2>Yapuy</h2>
-          <!-- <div class="logo">
+      <footer class="footer">
+        <nav id="nav" class="footer__nav">
+          <div class="container__footer">
+            <ul class="menu__footer">
+              <h2>Yapuy</h2>
+              <!-- <div class="logo">
             <img src="./assets/img/Logo_yapuy.webp" alt="logo yapuy" width="50" height="80" />
           </div> -->
-         
-          <li class="terms">
-            <p>
-              Viene impulsando el reconocimiento al trabajo del agricultor en diversas
-              comunidades andinas en el Perú con el pago justo por sus productos así 
-              mismo apoyar en el ahorro de la canasta familiar teniendo precios módicos
-              en los productos agrícolas. Esto permitirá que todos los peruanos tengan 
-              sus productos” DE LA CHACRA A LA OLLA”.
-            </p>
-          </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Categorias</h2>
-          <li  class="menu__footer-list">
-          <a  href="#tuberculos">Tubérculos</a>
-        </li>
-        <li class="menu__footer-list">
-          <a  href="#frutas">Frutas</a>
-        </li>
-          <li  class="menu__footer-list"> 
-          <a  href="#hierbas-aromaticas">Hierbas Aromáticas</a>
-        </li>
-          <li  class="menu__footer-list"> 
-          <a  href="#oferta">Ofertas</a>
-        </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Mi cuenta</h2>
-          <li  class="menu__footer-list">
-          <a  href="#sesion">Iniciar Sesión</a>
-        </li>
-          <li  class="menu__footer-list">
-          <a  href="#pedidos">Mis Pedidos</a>
-          </li>
-          <li class="menu__footer-list">
-          <a  href="#pedidos">Rastrear Pedidos</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a  href="#terminos">Términos y Condiciones</a>
-          </li>
-        </ul>
-        <ul class="menu__footer">
-          <h2>Siguenos</h2>
-          <li class="menu__footer-list">
-          <a href="https://www.facebook.com/"><img src="./assets/svg/logo facebook.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Facebook</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://www.instagram.com/"><img src="./assets/svg/logo-instagram.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Instagram</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://twitter.com/?lang=es"><img src="./assets/svg/logo twitter.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">Twiteer</a>
-          </li>
-          <li  class="menu__footer-list">
-          <a href="https://www.linkedin.com/"><img src="./assets/svg/logo-linkedin.ico" alt="Facebook" width="24" height="24" class="menu__footer-img">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-      <h2 class="menu__copyright">
-        Copyright &copy; 2022
-        <a href="https://github.com/orgs/grupo-desarollo-web-fullstack/" target="blank" rel="noopener noreferrer">
-          Yapuy
-        </a>
-        Todos los derechos reservados.
-      </h2>
-    </nav>
-    </footer>
 
-</body>
-
+              <li class="terms">
+                <p>
+                  Viene impulsando el reconocimiento al trabajo del agricultor
+                  en diversas comunidades andinas en el Perú con el pago justo
+                  por sus productos así mismo apoyar en el ahorro de la canasta
+                  familiar teniendo precios módicos en los productos agrícolas.
+                  Esto permitirá que todos los peruanos tengan sus productos” DE
+                  LA CHACRA A LA OLLA”.
+                </p>
+              </li>
+            </ul>
+            <ul class="menu__footer">
+              <h2>Categorias</h2>
+              <li class="menu__footer-list">
+                <a href="#tuberculos">Tubérculos</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#frutas">Frutas</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#hierbas-aromaticas">Hierbas Aromáticas</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#oferta">Ofertas</a>
+              </li>
+            </ul>
+            <ul class="menu__footer">
+              <h2>Mi cuenta</h2>
+              <li class="menu__footer-list">
+                <a href="#sesion">Iniciar Sesión</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#pedidos">Mis Pedidos</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#pedidos">Rastrear Pedidos</a>
+              </li>
+              <li class="menu__footer-list">
+                <a href="#terminos">Términos y Condiciones</a>
+              </li>
+            </ul>
+            <ul class="menu__footer">
+              <h2>Siguenos</h2>
+              <li class="menu__footer-list">
+                <a href="https://www.facebook.com/"
+                  ><img
+                    src="./assets/svg/logo facebook.ico"
+                    alt="Facebook"
+                    width="24"
+                    height="24"
+                    class="menu__footer-img"
+                  />Facebook</a
+                >
+              </li>
+              <li class="menu__footer-list">
+                <a href="https://www.instagram.com/"
+                  ><img
+                    src="./assets/svg/logo-instagram.ico"
+                    alt="Facebook"
+                    width="24"
+                    height="24"
+                    class="menu__footer-img"
+                  />Instagram</a
+                >
+              </li>
+              <li class="menu__footer-list">
+                <a href="https://twitter.com/?lang=es"
+                  ><img
+                    src="./assets/svg/logo twitter.ico"
+                    alt="Facebook"
+                    width="24"
+                    height="24"
+                    class="menu__footer-img"
+                  />Twiteer</a
+                >
+              </li>
+              <li class="menu__footer-list">
+                <a href="https://www.linkedin.com/"
+                  ><img
+                    src="./assets/svg/logo-linkedin.ico"
+                    alt="Facebook"
+                    width="24"
+                    height="24"
+                    class="menu__footer-img"
+                  />LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+          <h2 class="menu__copyright">
+            Copyright &copy; 2022
+            <a
+              href="https://github.com/orgs/grupo-desarollo-web-fullstack/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              Yapuy
+            </a>
+            Todos los derechos reservados.
+          </h2>
+        </nav>
+      </footer>
+    </main>
+  </body>
 </html>
