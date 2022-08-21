@@ -29,6 +29,11 @@
   justify-content: space-between;
 }
 
+.header-nav__logo {
+  height: 5rem;
+  object-fit: contain;
+}
+
 .footer {
   width: 100%;
   padding: 50px 0px;

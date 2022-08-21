@@ -1,0 +1,27 @@
+.section {
+  width: 100%;
+}
+
+.section__title {
+  font-size: 1.8rem;
+  margin: 0;
+  text-shadow: 0 0 0.5rem var(--secondary-theme-color);
+}
+
+.container {
+  width: min(100%, 1024px);
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.container--offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container--cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 1.5rem;
+}
