@@ -4,7 +4,7 @@
   --primary-theme-color: #EAE509;
   --secondary-theme-color: #7DCE13;
   --tertiary-theme-color: #5BB318;
-  --quaternary-theme-color: #2B7A0B;
+  --quaternary-theme-color: white;
   --primary-shadow-color: rgb(255, 255, 255);
   --primary-text-color: #000;
   --primary-reverse-text-color: rgb(236, 235, 235);
@@ -19,5 +19,5 @@
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: var(--primary-theme-color);
+  background-color: var(--quaternary-theme-color);
 }

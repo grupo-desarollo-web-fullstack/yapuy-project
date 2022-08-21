@@ -38,13 +38,13 @@
   width: 100%;
   padding: 50px 0px;
   background-size: cover;
-  background-color: #2B7A0B
-
+  background-color: #2B7A0B;
 }
 
 .container__footer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
@@ -107,5 +107,10 @@
 
 .copyright {
   background-color: #5BB318;
-  color: text;
+}
+
+@media (min-width: 768px) {
+  .menu__copyright{
+    font-size: 1rem;
+  }
 }
