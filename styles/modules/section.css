@@ -16,6 +16,18 @@
   padding: var(--padding-container);
 }
 
+.container--offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container--cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 1.5rem;
+}
+
 .container--headed {
   display: flex;
   align-items: center;
@@ -33,7 +45,7 @@
   margin: 0;
   font-size: 1.5rem;
   text-align: center;
-  text-shadow: 0 0 0.25rem var(--primary-highlight-color);
+  text-shadow: 0 0 0.5rem var(--secundary-shadow-color);
 }
 
 .section__title--property {

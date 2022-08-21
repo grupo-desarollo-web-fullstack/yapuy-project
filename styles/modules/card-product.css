@@ -1,0 +1,95 @@
+.card-product {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 0 0.2rem black;
+  display: grid;
+  height: 30rem;
+}
+
+.card-product__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.card-product__header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-product__body {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30% 1fr;
+  grid-template-areas: "title title"
+                       "price lookMore"
+                       "amount lookMore";
+  align-items: center;
+  justify-items: center;
+}
+
+.card-product__title {
+  margin: 0;
+  grid-area: title;
+  font-size: 2.5rem;
+  /* text-align: center; */
+}
+
+.card-product__price {
+  grid-area: price;
+  background-color: var(--tertiary-theme-color);
+  color: white;
+  width: 80%;
+  margin: auto;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  /* font-size: 1.2rem; */
+}
+
+.card-product__amount {
+  grid-area: amount;
+  display: flex;
+
+}
+
+.card-product__amount-input {
+  width: 10%;
+  border-top: 0.0625rem solid black;
+  border-bottom: 0.0625rem solid black;
+  border-left: none;
+  border-right: none;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+/* .card-product__amount-input */
+
+
+.card-product__look-more {
+  grid-area: lookMore;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 100%;
+  background-color: var(--primary-theme-color);
+  justify-content: center;
+  color: var(--primary-text-color);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.card-product__img {
+  width: 100%;
+  height: auto;
+}
