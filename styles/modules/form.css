@@ -14,6 +14,7 @@
   color: var(--secundary-text-color);
   font-size: 1rem;
   padding: 0.5em;
+  transform: filter 0.25s, border 0.25s, box-shadow 0.25s;
 }
 
 .form__input:hover {

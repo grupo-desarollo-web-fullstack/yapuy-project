@@ -97,12 +97,6 @@
   }
 }
 
-.section__title--animation {
-  text-transform: uppercase;
-  text-shadow: 1px 1px;
-  filter: brightness(112.5%);
-}
-
 
 .section__cards {
   display: flex;

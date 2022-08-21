@@ -27,6 +27,7 @@
   border: 0.0625rem solid var(--primary-button-color);
   color: var(--secundary-text-color);
   font-weight: bold;
+  transition: box-shadow 0.25s, color 0.25s;
 }
 
 .button--primary:hover {
