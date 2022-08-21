@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 4px double var(--secundary-shadow-color);
+  padding: 3rem 2rem;
+}
+
+
+
+.form__input {
+  background-color: transparent;
+  border: 2px solid var(--secundary-shadow-color);
+  color: var(--primary-text-color);
+  font-size: 1rem;
+  padding: 0.5em;
+}
+
+.form__input:invalid {
+  color: var(--primary-invalid-color);
+}
+
+.form__input::placeholder {
+  color: var(--secundary-text-color);
+}
