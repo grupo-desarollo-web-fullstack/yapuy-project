@@ -6,17 +6,23 @@
   --tertiary-theme-color: #5BB318;
   --quaternary-theme-color: rgba(255, 255, 255, 0.87);
   --primary-shadow-color: rgb(255, 255, 255);
-  --secundary-shadow-color: #7DCE13;
+  --secondary-shadow-color: #7DCE13;
   --terciary-shadow-color: #EAE509;
   --primary-button-color: #7DCE13;
+  --secondary-button-color: white;
   --primary-text-color: #000;
-  --secundary-text-color: rgba(128, 128, 128, 0.815);
+  --secondary-text-color: rgba(128, 128, 128, 0.815);
   --terciary-text-color: #EAE509;
+  --quaternary-text-color: white;
   --primary-reverse-text-color: rgb(236, 235, 235);
   --padding-section: 10rem;
   --padding-container: 2rem 0;
   --max-width-container: 1024px;
   --primary-invalid-color: rgba(0, 128, 0, 0.445);
+  --primary-border-color: white;
+  --secondary-border-color: black;
+  --primary-background-color: rgba(25, 71, 25, 0.445);
+  --primary-font-weight: bold;
 }
 
 * {
@@ -25,7 +31,7 @@
 
 .body {
   margin: 0;
-  padding: 0;
+  padding:0;
   position: relative;
   background-color: var(--quaternary-theme-color);
 }

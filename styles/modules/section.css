@@ -16,6 +16,139 @@
   padding: var(--padding-container);
 }
 
+
+
+
+.categories{
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow: 0; */
+}
+
+
+.category-item{
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 33.3%;
+  border: 2px solid var(--primary-border-color);
+  box-sizing: border-box;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.category-item-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.category-item-inner > div {
+  padding: 5px 10px;
+  background: var(--primary-background-color);
+  color: var(--quaternary-text-color);
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: var(--primary-font-weight);
+  text-transform: uppercase;
+  
+}
+
+
+@media (max-width:1000px) {
+  .category-item{
+    min-width: 50%;
+  }
+}
+
+
+@media (max-width:800px) {
+  .category-item{
+    min-width: 100%;
+  }
+}
+
+
+/* featured products body */
+
+.featured-products{
+  margin-top: 20px;
+  /* height: 40px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+  
+
+}
+
+@media (max-width:1000px) {
+  .featured-products{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width:800px) {
+  .featured-products{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.featured-products-title{
+  text-align: center;
+
+}
+
+.featured-products-items{
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid var(--secondary-border-color);
+  /* background: var(--primary-background-color);
+  height: 300px; */
+}
+
+
+.featured-product-item-image{
+  height:200px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container--offer {
   display: flex;
   flex-direction: column;
@@ -116,7 +249,7 @@
   gap: 1rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container--hero {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -124,4 +257,4 @@
   .section__title {
     font-size: 2rem;
   }
-}
+} */
