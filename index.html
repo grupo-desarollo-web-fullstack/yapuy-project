@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,23 +31,111 @@
         <ul class="menu menu--dropdown">
           <li>
             <a class="menu__item" href="#categoria">Categorías</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#informe">Informes</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#oferta">Ofertas</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#blog">Blog</a>
-          </li>
-          <li>
-            <a class="menu__item" href="#contacto">Contáctanos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yapuy 👨‍🌾🏠</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/imports.css" />
+
+    <!-- HTML Meta Tags -->
+    <title>Yapuy 👨‍🌾🏠</title>
+    <meta
+      name="description"
+      content="Yapuy, uniendo a los peruanos, del campo 👨‍🌾 a tu hogar 🏠"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://grupo-desarollo-web-fullstack.github.io/yapuy-project/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Yapuy 👨‍🌾🏠" />
+    <meta
+      property="og:description"
+      content="Yapuy, uniendo a los peruanos, del campo 👨‍🌾 a tu hogar 🏠"
+    />
+    <meta
+      property="og:image"
+      content="https://grupo-desarollo-web-fullstack.github.io/yapuy-project/assets/img/photo_web.jpg"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="grupo-desarollo-web-fullstack.github.io"
+    />
+    <meta
+      property="twitter:url"
+      content="https://grupo-desarollo-web-fullstack.github.io/yapuy-project/"
+    />
+    <meta name="twitter:title" content="Yapuy 👨‍🌾🏠" />
+    <meta
+      name="twitter:description"
+      content="Yapuy, uniendo a los peruanos, del campo 👨‍🌾 a tu hogar 🏠"
+    />
+    <meta
+      name="twitter:image"
+      content="https://grupo-desarollo-web-fullstack.github.io/yapuy-project/assets/img/photo_web.jpg"
+    />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <nav id="nav" class="header-nav">
+        <div class="header-nav__container">
+          <a class="header-nav__link" href="/">
+            <img
+              src="./assets/img/Logo_yapuy.webp"
+              alt="logo-yapuy"
+              width="110"
+              height="140"
+              class="header-nav__logo"
+            />
+          </a>
+          <a href="#nav" class="icon icon--menu"><i class="bi bi-list"></i></a>
+          <a href="#" class="icon icon--close"
+            ><i class="bi bi-x-circle-fill"></i
+          ></a>
+          <ul class="menu menu--dropdown">
+            <li>
+              <a class="menu__item" href="#categoria">Categorías</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#informes">Informes</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#oferta">Ofertas</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#blog">Blog</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#contacto">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+          
 
   <main>
     <section class="slider">
@@ -228,10 +317,59 @@
                   <input class="card-product__amount-input" type="text" value="0" placeholder="Cantidad" />
                   <button class="card-product__amount-button" type="button">
                     <i class="bi bi-plus-lg"></i>
+
+      </section>
+
+      <section id="categoria"></section>
+
+      <section class="section section--offer" id="oferta">
+        <div class="container container--offer">
+          <h2 class="section__title">Ofertas</h2>
+          <div class="container container--cards">
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/papa.png"
+                    class="card-product__img"
+                    alt="product-papa"
+                    width="210"
+                    height="150"
+                  />
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Papas</h2>
+                  <div class="card-product__price">S/. 1.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+
                   </button>
                 </div>
                 <a class="card-product__look-more" href="#"> Ver más </a>
               </div>
+
 
               <footer class="card-product__footer">
                 <button class="card-product__footer-button">
@@ -256,6 +394,48 @@
                 <div class="card-product__amount">
                   <button class="card-product__amount-button" type="button">
                     <i class="bi bi-dash-lg"></i>
+
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/cebolla.jpg"
+                    class="card-product__img"
+                    alt="product-cebolla"
+                    width="210"
+                    height="150"
+                  />
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Cebolla</h2>
+                  <div class="card-product__price">S/. 2.50 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+
+                    
                   </button>
                   <input class="card-product__amount-input" type="text" value="0" placeholder="Cantidad" />
                   <button class="card-product__amount-button" type="button">
@@ -264,6 +444,7 @@
                 </div>
                 <a class="card-product__look-more" href="#"> Ver más </a>
               </div>
+
               <footer class="card-product__footer">
                 <button class="card-product__footer-button">
                   <i class="bi bi-cart-plus-fill"></i>
@@ -290,10 +471,52 @@
                   <input class="card-product__amount-input" type="text" value="0" placeholder="Cantidad" />
                   <button class="card-product__amount-button" type="button">
                     <i class="bi bi-plus-lg"></i>
+
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/zanahorias.jpg"
+                    class="card-product__img"
+                    alt="product-zanahorias.jpg"
+                    width="210"
+                    height="150"
+                  />
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Zanahorias</h2>
+                  <div class="card-product__price">S/. 1.70 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+
                   </button>
                 </div>
                 <a class="card-product__look-more" href="#"> Ver más </a>
               </div>
+
               <footer class="card-product__footer">
                 <button class="card-product__footer-button">
                   <i class="bi bi-cart-plus-fill"></i>
@@ -320,6 +543,47 @@
                   <input class="card-product__amount-input" type="text" value="0" placeholder="Cantidad" />
                   <button class="card-product__amount-button" type="button">
                     <i class="bi bi-plus-lg"></i>
+
+            </article>
+            <article class="card-product">
+              <div class="card-product__container">
+                <header class="card-product__header">
+                  <img
+                    src="./assets/img/products/alcachofa.jpg"
+                    class="card-product__img"
+                    alt="product-alcachofa.jpg"
+                    width="210"
+                    height="150"
+                  />
+                </header>
+                <div class="card-product__body">
+                  <h2 class="card-product__title">Alcachofa</h2>
+                  <div class="card-product__price">S/. 2.80 x kg</div>
+                  <div class="card-product__amount">
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <input
+                      class="card-product__amount-input"
+                      type="text"
+                      value="0"
+                      placeholder="Cantidad"
+                    />
+                    <button class="card-product__amount-button" type="button">
+                      <i class="bi bi-plus-lg"></i>
+                    </button>
+                  </div>
+                  <a class="card-product__look-more" href="#"> Ver más </a>
+                </div>
+                <footer class="card-product__footer">
+                  <button class="card-product__footer-button">
+                    <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                    <div class="card-product__footer-button__text-container">
+                      <span class="card-product__footer-button__text"
+                        >Añadir al carrito</span
+                      >
+                    </div>
+
                   </button>
                 </div>
                 <a class="card-product__look-more" href="#"> Ver más </a>
@@ -335,6 +599,7 @@
             </div>
           </article>
         </div>
+
       </div>
     </section>
 
@@ -438,3 +703,68 @@
 </body>
 
 </html>
+
+      </section>
+
+      <section id="informes" class="informes seccion__informes">
+        <div class="informe__list-container">
+          <ul class="informe__list">
+            <li class="informe__item">
+              <a href="#informes" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="./assets/img/logo-infomes.jpg"
+                  alt="Agricultores 1"
+                  width="590px"
+                  height="295px"
+                  class="informe__item-img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section--secondary">
+        <div class="container container--elements">
+          <h2
+            class="section__title section__title--property section__title--animation"
+          >
+            Contactanos
+          </h2>
+          <form class="form" action="#">
+            <input
+              type="text"
+              class="form__input"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              maxlength="300"
+              minlength="1"
+              required
+            />
+            <input
+              type="email"
+              class="form__input"
+              id="correo"
+              name="correo"
+              placeholder="Correo"
+              required
+            />
+            <input
+              type="tel"
+              class="form__input"
+              id="telefono"
+              name="telefono"
+              placeholder="Telefóno"
+              pattern="[0-9]{9}"
+              required
+            />
+            <button class="button button--primary button--lg">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
+

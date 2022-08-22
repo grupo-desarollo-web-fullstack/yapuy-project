@@ -2,6 +2,7 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
+    padding-top: 8rem;
 }
 
 .slider__list {
@@ -46,5 +47,53 @@
     .slider__item-img {
         width: 100%;
         height: 28rem;
+    }
+}
+
+.informes {
+    width: 100%;
+    left: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+.informe__list {
+    display: flex;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+        
+}
+
+.informe__item {
+    width: 100%;
+    list-style: none;
+    border-radius: 6px;
+}
+
+.informe__item-img {
+    display: block;
+    object-fit: cover; 
+    width: 100%;
+    border-radius: .25rem;
+    transition: box-shadow .25s;
+    object-position: 0;
+    animation: moveImage 6s ease-in-out infinite alternate;
+    will-change: object-position;
+}
+
+@keyframes moveImage {
+    to {
+      object-position: 100%
+    }
+}
+
+.informe__item-img:hover {
+    box-shadow: 0 0 0.625rem 0rem var(--secondary-shadow-color);
+}
+
+@media (min-width: 768px) {
+    .informe__item-img {
+        height: 30rem;
     }
 }
