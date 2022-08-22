@@ -1,3 +1,11 @@
+.section {
+  transition: padding-top .25s;
+}
+
+.section:target {
+  padding-top: 8rem;
+}
+
 .section--secondary {
   background-color: var(--quaternary-theme-color);
   padding: var(--padding-section) 0;
