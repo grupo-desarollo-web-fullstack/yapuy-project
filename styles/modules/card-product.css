@@ -145,6 +145,7 @@
   border: none;
   display: grid;
   grid-template-columns: 20% 80%;
+  cursor: pointer;
   transition: transform .25s;
 }
 
@@ -158,7 +159,6 @@
 
 .card-product__footer-button__text-container {
   border-left: 0.1rem solid black;
-  cursor: pointer;
 }
 
 .card-product__footer-button__text {

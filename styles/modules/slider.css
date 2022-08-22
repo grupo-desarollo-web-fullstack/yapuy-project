@@ -52,6 +52,7 @@
 
 .informes {
     width: 100%;
+    left: auto;
     overflow: hidden;
     height: 100%;
 }
@@ -60,14 +61,14 @@
     display: flex;
     padding: 0;
     width: 95%;
-    margin: 0;
     margin: 0 auto;
+        
 }
-
 
 .informe__item {
     width: 100%;
     list-style: none;
+    border-radius: 6px;
 }
 
 .informe__item-img {
