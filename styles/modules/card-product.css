@@ -21,6 +21,7 @@
   background-color: rgb(255, 84, 84);
   border-radius: 0.2rem;
   line-height: 3rem;
+  font-weight: 800;
 }
 
 @media (min-width: 640px) {
