@@ -6,6 +6,39 @@
   overflow: hidden;
   box-shadow: 0 0 0 0.2rem black;
   display: grid;
+  position: relative;
+}
+
+.card-product--offer::before {
+  content: 'Oferta';
+  position: absolute;
+  top: 1rem;
+  text-align: center;
+  left: -40%;
+  transform: rotate(-45deg);
+  width: 100%;
+  color: #fff;
+  background-color: rgb(255, 84, 84);
+  border-radius: 0.2rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 640px) {
+  .card-product--offer::before {
+    left: -36%;
+  }
+}
+
+@media (min-width: 728px) {
+  .card-product--offer::before {
+    left: -38%;
+  } 
+}
+
+@media (min-width: 1024px) {
+  .card-product--offer::before {
+    left: -40%;
+  }
 }
 
 .card-product__container {
@@ -62,9 +95,7 @@
   .card-product__price {
     font-size: 1rem;
   }
-
 }
-
 
 .card-product__amount {
   grid-area: amount;
@@ -164,11 +195,5 @@
 .card-product__footer-button__text {
   font-size: 1rem;
   font-weight: 900;
-}
-
-
-.featured-product-item > .title{
-  font-size: 20px;
-  font-weight: bold;
 }
 

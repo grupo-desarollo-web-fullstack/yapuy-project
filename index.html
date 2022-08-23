@@ -20,9 +20,7 @@
     <link rel="stylesheet" href="./styles/imports.css" />
 
     <!-- HTML Meta Tags -->
-    <meta
-      name="title"
-      content="Yapuy 👨‍🌾🏠" />
+    <meta name="title" content="Yapuy 👨‍🌾🏠" />
 
     <meta
       name="description"
@@ -171,143 +169,233 @@
         </ul>
       </section>
 
-      
+      <section id="categoria" class="section section--categories">
+        <h2 class="section__title">Categorías</h2>
 
-    <section id="categoria" class="section section--categories">
-      <h2 class="section__title">Categorías</h2>
-
-      <div class="categories">
-        <div class="category-item" style="background-image: url(./assets/img/categories/cereales.jpg);">
-          <div class="category-item-inner">
-            <h3>Cereales</h3>
-            
-  
-          </div>
-  
-  
-        </div>  
-  
-  
-        <div class="category-item" style="background-image: url(./assets/img/categories/frutas.jpg) ;">
-          <div class="category-item-inner">
-            <h3>Frutas</h3>
-            
-          </div>
-  
-  
-        </div>
-  
-  
-        <div class="category-item" style="background-image: url(./assets/img/categories/legumbres.jpg) ;">
-          <div class="category-item-inner">
-            <h3>Legumbres</h3>
-          </div>
-  
-        </div>
-  
-  
-        <div class="category-item" style="background-image: url(./assets/img/categories/verduras.jpg) ;">
-          <div class="category-item-inner">
-            <h3>Verduras</h3>
-          </div>
-  
-        </div>
-  
-        
-        
-      </div>
-      
-
-    </section>
-
-
-    <h2 class="featured-products-title section__title">Productos Destacados</h2>
-
-    <section class="featured-products" id="oferta">
-      <div class="featured-products-items">
-        <div class="featured-product-item-image" style="background-image: url(./assets/img/products/cereals/arroz.jpg) ;">
-        
-          <div class="card-product__price">S/. 1.50 x kg</div>
-        
-        </div>
-
-        <p class="title">Arroz</p>
-
-        <button>Ver más</button>
-
-
-        <footer class="card-product__footer">
-          <button class="card-product__footer-button">
-            <i class="bi bi-cart-plus-fill"></i>
-            <div class="card-product__footer-button__text-container">
-              <span class="card-product__footer-button__text">Añadir al carrito</span>
+        <div class="categories">
+          <div
+            class="category-item"
+            style="background-image: url(./assets/img/categories/cereales.jpg)"
+          >
+            <div class="category-item-inner">
+              <h3>Cereales</h3>
             </div>
-          </button>
-        </footer>
+          </div>
 
+          <div
+            class="category-item"
+            style="background-image: url(./assets/img/categories/frutas.jpg)"
+          >
+            <div class="category-item-inner">
+              <h3>Frutas</h3>
+            </div>
+          </div>
 
+          <div
+            class="category-item"
+            style="background-image: url(./assets/img/categories/legumbres.jpg)"
+          >
+            <div class="category-item-inner">
+              <h3>Legumbres</h3>
+            </div>
+          </div>
 
+          <div
+            class="category-item"
+            style="background-image: url(./assets/img/categories/verduras.jpg)"
+          >
+            <div class="category-item-inner">
+              <h3>Verduras</h3>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="section section--products">
+        <h2 class="featured-products-title section__title">
+          Productos Destacados
+        </h2>
 
+        <div class="container container--cards">
+          <article class="card-product">
+            <div class="card-product__container">
+              <header class="card-product__header">
+                <img
+                  src="./assets/img/products/cereals/arroz.jpg"
+                  class="card-product__img"
+                  alt="product-arroz"
+                  width="210"
+                  height="150"
+                />
+              </header>
+              <div class="card-product__body">
+                <h2 class="card-product__title">Arroz</h2>
+                <div class="card-product__price">S/. 1.50 x kg</div>
+                <div class="card-product__amount">
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-dash-lg"></i>
+                  </button>
+                  <input
+                    class="card-product__amount-input"
+                    type="text"
+                    value="0"
+                    placeholder="Cantidad"
+                  />
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-plus-lg"></i>
+                  </button>
+                </div>
+                <a class="card-product__look-more" href="#"> Ver más </a>
+              </div>
+              <footer class="card-product__footer">
+                <button class="card-product__footer-button">
+                  <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                  <div class="card-product__footer-button__text-container">
+                    <span class="card-product__footer-button__text"
+                      >Añadir al carrito</span
+                    >
+                  </div>
+                </button>
+              </footer>
+            </div>
+          </article>
 
-      </div>
+          <article class="card-product">
+            <div class="card-product__container">
+              <header class="card-product__header">
+                <img
+                  src="./assets/img/products/cereals/lenteja.jpg"
+                  class="card-product__img"
+                  alt="product-lenteja"
+                  width="210"
+                  height="150"
+                />
+              </header>
+              <div class="card-product__body">
+                <h2 class="card-product__title">Lenteja</h2>
+                <div class="card-product__price">S/. 2.50 x kg</div>
+                <div class="card-product__amount">
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-dash-lg"></i>
+                  </button>
+                  <input
+                    class="card-product__amount-input"
+                    type="text"
+                    value="0"
+                    placeholder="Cantidad"
+                  />
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-plus-lg"></i>
+                  </button>
+                </div>
+                <a class="card-product__look-more" href="#"> Ver más </a>
+              </div>
+              <footer class="card-product__footer">
+                <button class="card-product__footer-button">
+                  <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                  <div class="card-product__footer-button__text-container">
+                    <span class="card-product__footer-button__text"
+                      >Añadir al carrito</span
+                    >
+                  </div>
+                </button>
+              </footer>
+            </div>
+          </article>
 
-      <div class="featured-products-items">
-        <div class="featured-product-item-image" style="background-image: url(./assets/img/products/cereals/lenteja.jpg) ;"></div>
+          <article class="card-product">
+            <div class="card-product__container">
+              <header class="card-product__header">
+                <img
+                  src="./assets/img/products/cereals/quinua.jpg"
+                  class="card-product__img"
+                  alt="product-quinua"
+                  width="210"
+                  height="150"
+                />
+              </header>
+              <div class="card-product__body">
+                <h2 class="card-product__title">Quinua</h2>
+                <div class="card-product__price">S/. 3.50 x kg</div>
+                <div class="card-product__amount">
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-dash-lg"></i>
+                  </button>
+                  <input
+                    class="card-product__amount-input"
+                    type="text"
+                    value="0"
+                    placeholder="Cantidad"
+                  />
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-plus-lg"></i>
+                  </button>
+                </div>
+                <a class="card-product__look-more" href="#"> Ver más </a>
+              </div>
+              <footer class="card-product__footer">
+                <button class="card-product__footer-button">
+                  <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                  <div class="card-product__footer-button__text-container">
+                    <span class="card-product__footer-button__text"
+                      >Añadir al carrito</span
+                    >
+                  </div>
+                </button>
+              </footer>
+            </div>
+          </article>
 
-        <p class="title">Lentejas</p>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image" style="background-image: url(./assets/img/products/cereals/quinua.jpg);"></div>
-        <p class="title">Quinua</p>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image" style="background-image: url(./assets/img/products/cereals/trigo.jpg);"></div>
-        <p class="title">Trigo</p>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image"></div>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image"></div>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image"></div>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image"></div>
-
-      </div>
-
-      <div class="featured-products-items">
-        <div class="featured-product-item-image"></div>
-
-      </div>
-
-      
-    </section>
-
-
-
-
+          <article class="card-product">
+            <div class="card-product__container">
+              <header class="card-product__header">
+                <img
+                  src="./assets/img/products/cereals/trigo.jpg"
+                  class="card-product__img"
+                  alt="product-trigo"
+                  width="210"
+                  height="150"
+                />
+              </header>
+              <div class="card-product__body">
+                <h2 class="card-product__title">Trigo</h2>
+                <div class="card-product__price">S/. 1.50 x kg</div>
+                <div class="card-product__amount">
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-dash-lg"></i>
+                  </button>
+                  <input
+                    class="card-product__amount-input"
+                    type="text"
+                    value="0"
+                    placeholder="Cantidad"
+                  />
+                  <button class="card-product__amount-button" type="button">
+                    <i class="bi bi-plus-lg"></i>
+                  </button>
+                </div>
+                <a class="card-product__look-more" href="#"> Ver más </a>
+              </div>
+              <footer class="card-product__footer">
+                <button class="card-product__footer-button">
+                  <i class="bi bi-cart-plus-fill icon__cart-plus"></i>
+                  <div class="card-product__footer-button__text-container">
+                    <span class="card-product__footer-button__text"
+                      >Añadir al carrito</span
+                    >
+                  </div>
+                </button>
+              </footer>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section class="section section--offer" id="oferta">
         <div class="container container--offer">
           <h2 class="section__title">Ofertas</h2>
           <div class="container container--cards">
-            <article class="card-product">
+            <article class="card-product card-product--offer">
               <div class="card-product__container">
                 <header class="card-product__header">
                   <img
@@ -349,7 +437,7 @@
                 </footer>
               </div>
             </article>
-            <article class="card-product">
+            <article class="card-product card-product--offer">
               <div class="card-product__container">
                 <header class="card-product__header">
                   <img
@@ -391,7 +479,7 @@
                 </footer>
               </div>
             </article>
-            <article class="card-product">
+            <article class="card-product card-product--offer">
               <div class="card-product__container">
                 <header class="card-product__header">
                   <img
@@ -433,7 +521,7 @@
                 </footer>
               </div>
             </article>
-            <article class="card-product">
+            <article class="card-product card-product--offer">
               <div class="card-product__container">
                 <header class="card-product__header">
                   <img

@@ -1,4 +1,4 @@
-/* .button {
+.button {
   display: inline-block;
   background-color: var(secondary-theme-color);
   border: 0.0625rem solid var(secondary-theme-color);
@@ -11,7 +11,7 @@
   padding: 0.25em 1em;
   box-sizing: border-box;
   cursor: pointer;
-} */
+}
 
 .button--lg {
   font-size: 1.125rem;
@@ -44,23 +44,4 @@
   .button--lg {
     font-size: 1.25rem;
   }
-}
-
-
-
-button{
-  border: 0.0625rem solid var(secondary-theme-color);
-  outline: none;
-  background: var(--primary-background-color);
-  font-family: "Roboto", sans-serif;
-  color: var(--secondary-button-color);
-  padding: 10px 15px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: 16px;
-  margin: 10px 0;
-
-
 }
